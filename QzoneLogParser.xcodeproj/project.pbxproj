@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5963F60F1971445300CB6001 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5963F60E1971445300CB6001 /* Cocoa.framework */; };
+		5963F6191971445300CB6001 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5963F6171971445300CB6001 /* InfoPlist.strings */; };
+		5963F61B1971445300CB6001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5963F61A1971445300CB6001 /* main.m */; };
+		5963F61F1971445300CB6001 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5963F61D1971445300CB6001 /* Credits.rtf */; };
+		5963F6221971445300CB6001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5963F6211971445300CB6001 /* AppDelegate.m */; };
+		5963F6251971445300CB6001 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5963F6231971445300CB6001 /* MainMenu.xib */; };
+		5963F6271971445300CB6001 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5963F6261971445300CB6001 /* Images.xcassets */; };
+		5963F62E1971445300CB6001 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5963F62D1971445300CB6001 /* XCTest.framework */; };
+		5963F62F1971445300CB6001 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5963F60E1971445300CB6001 /* Cocoa.framework */; };
+		5963F6371971445300CB6001 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5963F6351971445300CB6001 /* InfoPlist.strings */; };
+		5963F6391971445300CB6001 /* QzoneLogParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5963F6381971445300CB6001 /* QzoneLogParserTests.m */; };
+		5963F64B19717BBA00CB6001 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5963F64919717BBA00CB6001 /* LogViewController.m */; };
+		5963F64C19717BBA00CB6001 /* LogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5963F64A19717BBA00CB6001 /* LogViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5963F6301971445300CB6001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5963F6031971445200CB6001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5963F60A1971445300CB6001;
+			remoteInfo = QzoneLogParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5963F60B1971445300CB6001 /* QzoneLogParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QzoneLogParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5963F60E1971445300CB6001 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5963F6111971445300CB6001 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5963F6121971445300CB6001 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5963F6131971445300CB6001 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5963F6161971445300CB6001 /* QzoneLogParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QzoneLogParser-Info.plist"; sourceTree = "<group>"; };
+		5963F6181971445300CB6001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5963F61A1971445300CB6001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5963F61C1971445300CB6001 /* QzoneLogParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QzoneLogParser-Prefix.pch"; sourceTree = "<group>"; };
+		5963F61E1971445300CB6001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5963F6201971445300CB6001 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5963F6211971445300CB6001 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5963F6241971445300CB6001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5963F6261971445300CB6001 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5963F62C1971445300CB6001 /* QzoneLogParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QzoneLogParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5963F62D1971445300CB6001 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5963F6341971445300CB6001 /* QzoneLogParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QzoneLogParserTests-Info.plist"; sourceTree = "<group>"; };
+		5963F6361971445300CB6001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5963F6381971445300CB6001 /* QzoneLogParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QzoneLogParserTests.m; sourceTree = "<group>"; };
+		5963F64819717BBA00CB6001 /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		5963F64919717BBA00CB6001 /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		5963F64A19717BBA00CB6001 /* LogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5963F6081971445300CB6001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5963F60F1971445300CB6001 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5963F6291971445300CB6001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5963F62F1971445300CB6001 /* Cocoa.framework in Frameworks */,
+				5963F62E1971445300CB6001 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5963F6021971445200CB6001 = {
+			isa = PBXGroup;
+			children = (
+				5963F6141971445300CB6001 /* QzoneLogParser */,
+				5963F6321971445300CB6001 /* QzoneLogParserTests */,
+				5963F60D1971445300CB6001 /* Frameworks */,
+				5963F60C1971445300CB6001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5963F60C1971445300CB6001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5963F60B1971445300CB6001 /* QzoneLogParser.app */,
+				5963F62C1971445300CB6001 /* QzoneLogParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5963F60D1971445300CB6001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5963F60E1971445300CB6001 /* Cocoa.framework */,
+				5963F62D1971445300CB6001 /* XCTest.framework */,
+				5963F6101971445300CB6001 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5963F6101971445300CB6001 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5963F6111971445300CB6001 /* AppKit.framework */,
+				5963F6121971445300CB6001 /* CoreData.framework */,
+				5963F6131971445300CB6001 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5963F6141971445300CB6001 /* QzoneLogParser */ = {
+			isa = PBXGroup;
+			children = (
+				5963F6201971445300CB6001 /* AppDelegate.h */,
+				5963F6211971445300CB6001 /* AppDelegate.m */,
+				5963F6231971445300CB6001 /* MainMenu.xib */,
+				5963F6261971445300CB6001 /* Images.xcassets */,
+				5963F6151971445300CB6001 /* Supporting Files */,
+				5963F64819717BBA00CB6001 /* LogViewController.h */,
+				5963F64919717BBA00CB6001 /* LogViewController.m */,
+				5963F64A19717BBA00CB6001 /* LogViewController.xib */,
+			);
+			path = QzoneLogParser;
+			sourceTree = "<group>";
+		};
+		5963F6151971445300CB6001 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5963F6161971445300CB6001 /* QzoneLogParser-Info.plist */,
+				5963F6171971445300CB6001 /* InfoPlist.strings */,
+				5963F61A1971445300CB6001 /* main.m */,
+				5963F61C1971445300CB6001 /* QzoneLogParser-Prefix.pch */,
+				5963F61D1971445300CB6001 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5963F6321971445300CB6001 /* QzoneLogParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				5963F6381971445300CB6001 /* QzoneLogParserTests.m */,
+				5963F6331971445300CB6001 /* Supporting Files */,
+			);
+			path = QzoneLogParserTests;
+			sourceTree = "<group>";
+		};
+		5963F6331971445300CB6001 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5963F6341971445300CB6001 /* QzoneLogParserTests-Info.plist */,
+				5963F6351971445300CB6001 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5963F60A1971445300CB6001 /* QzoneLogParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5963F63C1971445300CB6001 /* Build configuration list for PBXNativeTarget "QzoneLogParser" */;
+			buildPhases = (
+				5963F6071971445300CB6001 /* Sources */,
+				5963F6081971445300CB6001 /* Frameworks */,
+				5963F6091971445300CB6001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QzoneLogParser;
+			productName = QzoneLogParser;
+			productReference = 5963F60B1971445300CB6001 /* QzoneLogParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5963F62B1971445300CB6001 /* QzoneLogParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5963F63F1971445300CB6001 /* Build configuration list for PBXNativeTarget "QzoneLogParserTests" */;
+			buildPhases = (
+				5963F6281971445300CB6001 /* Sources */,
+				5963F6291971445300CB6001 /* Frameworks */,
+				5963F62A1971445300CB6001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5963F6311971445300CB6001 /* PBXTargetDependency */,
+			);
+			name = QzoneLogParserTests;
+			productName = QzoneLogParserTests;
+			productReference = 5963F62C1971445300CB6001 /* QzoneLogParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5963F6031971445200CB6001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = liunan;
+				TargetAttributes = {
+					5963F62B1971445300CB6001 = {
+						TestTargetID = 5963F60A1971445300CB6001;
+					};
+				};
+			};
+			buildConfigurationList = 5963F6061971445200CB6001 /* Build configuration list for PBXProject "QzoneLogParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5963F6021971445200CB6001;
+			productRefGroup = 5963F60C1971445300CB6001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5963F60A1971445300CB6001 /* QzoneLogParser */,
+				5963F62B1971445300CB6001 /* QzoneLogParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5963F6091971445300CB6001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5963F6191971445300CB6001 /* InfoPlist.strings in Resources */,
+				5963F6271971445300CB6001 /* Images.xcassets in Resources */,
+				5963F64C19717BBA00CB6001 /* LogViewController.xib in Resources */,
+				5963F61F1971445300CB6001 /* Credits.rtf in Resources */,
+				5963F6251971445300CB6001 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5963F62A1971445300CB6001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5963F6371971445300CB6001 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5963F6071971445300CB6001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5963F6221971445300CB6001 /* AppDelegate.m in Sources */,
+				5963F61B1971445300CB6001 /* main.m in Sources */,
+				5963F64B19717BBA00CB6001 /* LogViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5963F6281971445300CB6001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5963F6391971445300CB6001 /* QzoneLogParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5963F6311971445300CB6001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5963F60A1971445300CB6001 /* QzoneLogParser */;
+			targetProxy = 5963F6301971445300CB6001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5963F6171971445300CB6001 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5963F6181971445300CB6001 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5963F61D1971445300CB6001 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5963F61E1971445300CB6001 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5963F6231971445300CB6001 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5963F6241971445300CB6001 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5963F6351971445300CB6001 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5963F6361971445300CB6001 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5963F63A1971445300CB6001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5963F63B1971445300CB6001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5963F63D1971445300CB6001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QzoneLogParser/QzoneLogParser-Prefix.pch";
+				INFOPLIST_FILE = "QzoneLogParser/QzoneLogParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5963F63E1971445300CB6001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QzoneLogParser/QzoneLogParser-Prefix.pch";
+				INFOPLIST_FILE = "QzoneLogParser/QzoneLogParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5963F6401971445300CB6001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QzoneLogParser.app/Contents/MacOS/QzoneLogParser";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QzoneLogParser/QzoneLogParser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QzoneLogParserTests/QzoneLogParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5963F6411971445300CB6001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QzoneLogParser.app/Contents/MacOS/QzoneLogParser";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QzoneLogParser/QzoneLogParser-Prefix.pch";
+				INFOPLIST_FILE = "QzoneLogParserTests/QzoneLogParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5963F6061971445200CB6001 /* Build configuration list for PBXProject "QzoneLogParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5963F63A1971445300CB6001 /* Debug */,
+				5963F63B1971445300CB6001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5963F63C1971445300CB6001 /* Build configuration list for PBXNativeTarget "QzoneLogParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5963F63D1971445300CB6001 /* Debug */,
+				5963F63E1971445300CB6001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5963F63F1971445300CB6001 /* Build configuration list for PBXNativeTarget "QzoneLogParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5963F6401971445300CB6001 /* Debug */,
+				5963F6411971445300CB6001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5963F6031971445200CB6001 /* Project object */;
+}
